@@ -38,6 +38,7 @@ nav ul li a:hover {
 }
 
 main {
+    clear: left;
     margin-left: 21%;
     margin-right: 2%;
 }
