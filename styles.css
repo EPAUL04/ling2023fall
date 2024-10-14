@@ -120,8 +120,13 @@ footer a:hover {
     }
     main {
         clear: both;
-        width: 60%;
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        margin: 1%;
+        padding: 1%;
+        text-align: center;
+    }
+    main ol, main ul {
+        text-align: left;
+        left: 0;
     }
 }
