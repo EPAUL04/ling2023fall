@@ -65,6 +65,13 @@ main {
 .nav ul li a:hover {
     color: rgb(161, 143, 164);
 }
+main button {
+    position: sticky;
+    top: 0%;
+    padding-top: 0.5%;
+    background-color: rgb(255, 240, 250);
+    color: white;
+}
 main img{
     float: left;
 }
