@@ -16,7 +16,7 @@ header {
     outline-color: black;
     outline-width: 0.2em;
 }
-#hide-nav nav {
+.hide-nav nav {
     display: none;
 }
 
@@ -45,7 +45,7 @@ main {
     margin-left: 5%;
     margin-right: 2%;
 }
-#hide-vertnav .nav {
+.hide-vertnav #nav {
     display: none
 }
 .nav {
@@ -108,6 +108,7 @@ footer a:hover {
         display: block;
         top: 0%;
         padding-top: 0.5%;
+        padding-left: 0.5%;
         text-align: center;
     }
     main {
