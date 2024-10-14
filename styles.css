@@ -16,6 +16,9 @@ header {
     outline-color: black;
     outline-width: 0.2em;
 }
+#hide-nav nav {
+    display: none;
+}
 
 nav {
     display: block;
@@ -42,10 +45,12 @@ main {
     margin-left: 5%;
     margin-right: 2%;
 }
+#hide-vertnav .nav {
+    display: none
+}
 .nav {
     position: sticky;
     top: 0%;
-    left: 21%;
     padding-top: 0.5%;
     text-align: center;
     background-color: white;
@@ -59,9 +64,6 @@ main {
 }
 .nav ul li a:hover {
     color: rgb(161, 143, 164);
-}
-main {
-    left: 21%;
 }
 main img{
     float: left;
